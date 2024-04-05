@@ -17,10 +17,10 @@ int main()
         {
             if (a[min]>a[j])
             {
-                min=j;
+                min=j;       //updating the index of the minimum value
             }
         }
-            if (min!=i)
+            if (min!=i)      // swapping a selected index with the index of the minimum index
             {int temp=a[i];
             a[i]=a[min];
             a[min]=temp;}
