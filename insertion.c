@@ -18,7 +18,7 @@ int main()
         {
             a[j+1]=a[j]; j--;
         }
-        a[j+1]=temp;
+        a[j+1]=temp;   //inserting the minimum value at the appropriate loaction in the array
     }
 
     printf("The sorted array is as follows: ");
